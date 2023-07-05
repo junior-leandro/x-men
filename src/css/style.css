@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: oxanium;
+    color: white;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: black;
+}
+
+
+.selecao-de-personagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,00.800), rgba(0,0,0,0.800)), url(../imagens/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.titulo{
+    margin: auto;
+}
+.personagens, .personagem-selecionado{
+    width: 65%;
+    text-align: center;
+    margin: auto;
+}
+
+.lista-de-personagens {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.personagem {
+    margin: 1em;
+}
